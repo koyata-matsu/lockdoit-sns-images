@@ -70,8 +70,19 @@ def load(arg):
     return json.loads(Path(arg).read_text(encoding="utf-8"))
 
 
+def apply_override(post):
+    """PDCAで手直しした文字（data/overrides.json）があれば、そっちを使う"""
+    f = HERE / "data" / "overrides.json"
+    if not f.exists():
+        return post
+    ov = json.loads(f.read_text(encoding="utf-8")).get(str(post["no"]))
+    if ov:
+        post = {**post, **{k: v for k, v in ov.items() if k in ("slides", "caption", "type", "theme")}}
+    return post
+
+
 def main():
-    post = load(sys.argv[1])
+    post = apply_override(load(sys.argv[1]))
     post["photo"] = pick_photo(post)
     out = HERE / "posts" / f"No{int(post['no']):03d}"
     for old in out.glob("*.jpg"):

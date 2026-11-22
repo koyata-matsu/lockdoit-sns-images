@@ -1,0 +1,4 @@
+{
+  "_note": "PDCAで手直しした投稿の文字。番号ごとに slides / caption を書くと、make_post.py が元の文字より優先して使う。元のシート（投稿100本リスト）は書き換えない。",
+  "_example": {"slides": ["1枚目 / 2行目", "..."], "caption": "説明文", "reason": "なぜ変えたか（PDCAの週）"}
+}
