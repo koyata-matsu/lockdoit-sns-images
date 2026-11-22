@@ -1,0 +1,9 @@
+{
+  "note": "自動動画のキュー。status: review(こやたさんの確認待ち) → ok(予約してよい) → scheduled(予約ずみ) / redo(作り直し) / skip(使わない)。日本語は TikTok日本語2＋インスタtodo_lock の 12:15・20:00 枠、英語は Buffer(@sequiylas71) の 09:30・22:30 枠。動画の場所は videos/auto/out/<id>_<ja|en>.mp4",
+  "videos": [
+    {"id": "a001", "theme": "先延ばし×本", "title_ja": "やる気が出ない日は2分ルール", "title_en": "The two-minute rule", "ending": "A",
+     "ja": {"file": "videos/auto/out/a001_ja.mp4", "status": "review", "slot": null},
+     "en": {"file": "videos/auto/out/a001_en.mp4", "status": "review", "slot": null},
+     "created": "2026-11-22"}
+  ]
+}

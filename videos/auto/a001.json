@@ -1,0 +1,39 @@
+{
+  "id": "a001",
+  "theme": "先延ばし×本",
+  "ending": "A",
+  "hud": {"ja": "TWO-MINUTE RULE", "en": "TWO-MINUTE RULE"},
+  "caption": {
+    "ja": "やる気が出ない日は「2分ルール」🕑 James Clear『Atomic Habits』の方法。保存して明日やってみて📌 App Storeで「Lock Do it」🔍 #先延ばし #習慣化 #勉強垢 #LockDoit",
+    "en": "Can't get started? Try the 2-minute rule 🕑 From James Clear's Atomic Habits. Save this for tomorrow 📌 Search \"Lock Do it\" on the App Store 🔍 #procrastination #atomichabits #productivity #lockdoit"
+  },
+  "lines": [
+    {"scene": "person", "args": {"pose": "slump", "cloud": "あとで…", "cloud_en": "Later..."},
+     "ja": {"text": "やらなきゃいけないのに、\n体が動かない。", "hl": "動かない"},
+     "en": {"text": "You know you should start.\nBut you just can't move.", "hl": "can't move"}},
+    {"scene": "boulder", "args": {"split": false, "label": "TOO BIG"},
+     "ja": {"text": "やることが大きすぎると、\n脳は逃げたくなる。", "hl": "逃げたくなる"},
+     "en": {"text": "When a task feels too big,\nyour brain wants to run.", "hl": "run"}},
+    {"scene": "book", "args": {"title": "Atomic Habits", "author": "James Clear"},
+     "ja": {"text": "James Clearの本\n『Atomic Habits』に、こんな方法がある。", "hl": "Atomic Habits", "say": "ジェームズ・クリアの本、アトミック・ハビッツに、こんな方法がある。"},
+     "en": {"text": "In Atomic Habits,\nJames Clear shares a simple trick.", "hl": "Atomic Habits"}},
+    {"scene": "title", "args": {"big": "2分", "big_en": "2 MIN", "sub": "TWO-MINUTE RULE"},
+     "ja": {"text": "2分ルール。", "hl": "2分ルール", "say": "にふんルール。"},
+     "en": {"text": "The two-minute rule.", "hl": "two-minute rule"}},
+    {"scene": "boulder", "args": {"pieces": 5, "label": "MAKE IT SMALL"},
+     "ja": {"text": "どんなことも、\n2分でできる大きさまで小さくする。", "hl": "2分でできる", "say": "どんなことも、にふんでできる大きさまで小さくする。"},
+     "en": {"text": "Shrink any task until\nit takes two minutes.", "hl": "two minutes"}},
+    {"scene": "checklist", "args": {"items": ["ノートを開く", "靴をはく", "本を1ページ読む"], "items_en": ["Open the notebook", "Put on shoes", "Read one page"]},
+     "ja": {"text": "勉強なら、ノートを開くだけ。\n運動なら、靴をはくだけ。", "hl": "だけ"},
+     "en": {"text": "Studying? Just open the notebook.\nWorking out? Just put on your shoes.", "hl": "Just"}},
+    {"scene": "door", "args": {},
+     "ja": {"text": "始めてしまえば、\n続きは意外とできる。", "hl": "始めてしまえば"},
+     "en": {"text": "Once you start,\nthe rest gets easier.", "hl": "start"}},
+    {"scene": "phone", "args": {},
+     "ja": {"text": "でも、スマホを開いた瞬間、\nその2分は消える。", "hl": "消える", "say": "でも、スマホを開いた瞬間、そのにふんは消える。"},
+     "en": {"text": "But the moment you open your phone,\nthose two minutes are gone.", "hl": "gone"}},
+    {"scene": "stairs", "args": {"steps": 6},
+     "ja": {"text": "小さく始めて、\n少しずつ積み上げよう。", "hl": "積み上げよう"},
+     "en": {"text": "Start small.\nThen stack it up, day by day.", "hl": "stack it up"}}
+  ]
+}
