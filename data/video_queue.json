@@ -9,13 +9,13 @@
    "ending": "A",
    "ja": {
     "file": "videos/auto/out/a001_ja.mp4",
-    "status": "ok",
-    "slot": null
+    "status": "scheduled",
+    "slot": "2026-11-24 12:15"
    },
    "en": {
     "file": "videos/auto/out/a001_en.mp4",
-    "status": "ok",
-    "slot": null
+    "status": "scheduled",
+    "slot": "2026-11-23 22:30"
    },
    "created": "2026-11-22"
   }
