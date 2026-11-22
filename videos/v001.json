@@ -1,0 +1,21 @@
+{
+  "name": "v001_motivation",
+  "scenes": [
+    {"kind": "photo", "img": "assets/photos/phone/pb_4856895.jpg",
+     "text": "今日も気づいたら\n2時間スマホ…", "hl": "2時間", "say": "今日も、気づいたら、2時間スマホ。"},
+    {"kind": "photo", "img": "assets/photos/phone/pb_6772110.jpg",
+     "text": "やる気が出るのを\n待ってるだけじゃ", "hl": "待ってる", "say": "やる気が出るのを、待ってるだけじゃ、"},
+    {"kind": "photo", "img": "assets/photos/phone/pb_8057248.jpg",
+     "text": "1日はあっという間に\n終わる", "hl": "終わる", "say": "一日は、あっという間に終わる。"},
+    {"kind": "photo", "img": "assets/photos/study/pb_3544946.jpg",
+     "text": "変わる人は\n先にスマホを閉じる", "hl": "先に", "say": "変わる人は、先に、スマホを閉じる。"},
+    {"kind": "screen", "img": "assets/app_screens/todo.png",
+     "text": "今日のToDoは\n6個まで", "hl": "6個", "say": "ロックドゥーイットは、今日のトゥードゥーを、6個まで決めて、"},
+    {"kind": "screen", "img": "assets/app_screens/lock.png",
+     "text": "終わるまで\nSNSはロック", "hl": "ロック", "say": "終わるまで、SNSにロックをかけるアプリ。"},
+    {"kind": "screen", "img": "assets/app_screens/done.png",
+     "text": "全部終わったら\nロック解除！", "hl": "ロック解除", "say": "全部終わったら、ロック解除。"},
+    {"kind": "cta", "text": "今日こそ、\nやり切ろう。", "hl": "やり切ろう", "sub": "App Storeで「Lock Do it」\n無料",
+     "say": "今日こそ、やり切ろう。アップストアで、ロックドゥーイット。"}
+  ]
+}
