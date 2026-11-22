@@ -40,6 +40,7 @@ GRN = (0.45, 0.90, 0.60)
 CX, CY = 540, 980
 FLOOR = 1238
 ROOT = Path(__file__).resolve().parent.parent
+SHOW_HUD = False  # 上の心電図パネル（2026-11-22 こやた：わかりにくいので消す）
 
 # ---------- 締めの4行 ----------
 ENDING_JA = {
@@ -792,7 +793,7 @@ def make_frame(lines, starts, durs, total, hud_label):
             args = dict(ln.get("args", {})); args.setdefault("sub", ln.get("sub", ""))
             SCENES[ln["scene"]](c, t, p, a, args, {"dur": e - s})
             c.restore()
-        if hud_label and t < starts[first_end]:
+        if SHOW_HUD and hud_label and t < starts[first_end]:
             ha = min(1.0, (t - starts[0]) / 0.3) * max(0.0, min(1.0, (starts[first_end] - t) / 0.3))
             alarm = lines[cur]["scene"] in ("phone", "clock") or lines[cur].get("args", {}).get("alarm", False)
             hud(c, hud_label, t, ha, alarm, 140 if alarm else 72)
