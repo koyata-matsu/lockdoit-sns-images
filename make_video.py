@@ -83,6 +83,9 @@ def caption_layer(text, hl="", y_center=None, font=FONT, box=True):
     lay = Image.new("RGBA", (W, H), (0, 0, 0, 0))
     d = ImageDraw.Draw(lay)
     lines = wrap(text)
+    widest = max(d.textlength(l, font=font) for l in lines) if lines else 0
+    if widest > 900:  # はみ出しそうなら文字を小さく
+        font = ImageFont.truetype(font.path, int(font.size * 900 / widest), index=0)
     lh = int(font.size * 1.38)
     total = lh * len(lines)
     y0 = (y_center if y_center else H // 2) - total // 2

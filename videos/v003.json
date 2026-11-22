@@ -1,0 +1,17 @@
+{
+  "name": "v003_3steps",
+  "scenes": [
+    {"kind": "photo", "img": "assets/photos/work/pb_2559707.jpg",
+     "text": "やることが終わらない人へ\n3つのコツ", "hl": "3つのコツ", "say": "やることが終わらない人へ。三つのコツ。"},
+    {"kind": "photo", "img": "assets/photos/habit/pb_7420066.jpg",
+     "text": "① やることは\n1日6個まで", "hl": "6個まで", "say": "一つ目。やることは、一日、6個まで。"},
+    {"kind": "photo", "img": "assets/photos/study/pb_3544950.jpg",
+     "text": "② いちばん大事なものから\n先にやる", "hl": "先に", "say": "二つ目。いちばん大事なものから、先にやる。"},
+    {"kind": "photo", "img": "assets/photos/phone/pb_6772110.jpg",
+     "text": "③ 終わるまで\nSNSは開かない", "hl": "開かない", "say": "三つ目。終わるまで、SNSは開かない。"},
+    {"kind": "screen", "img": "assets/app_screens/todo.png",
+     "text": "この3つを\nアプリで自動に", "hl": "自動", "say": "この三つを、全部まとめてできるのが、ロックドゥーイット。"},
+    {"kind": "cta", "text": "保存して\n明日から試そう", "hl": "保存", "sub": "App Storeで「Lock Do it」\n無料",
+     "say": "保存して、明日から試してみて。"}
+  ]
+}

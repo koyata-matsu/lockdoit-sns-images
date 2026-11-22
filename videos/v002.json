@@ -1,0 +1,17 @@
+{
+  "name": "v002_study",
+  "scenes": [
+    {"kind": "photo", "img": "assets/photos/study/pb_2569626.jpg",
+     "text": "勉強しようと思って\nスマホを開いた", "hl": "スマホ", "say": "勉強しようと思って、スマホを開いた。"},
+    {"kind": "photo", "img": "assets/photos/phone/pb_6960173.jpg",
+     "text": "気づいたら\n1時間たってた", "hl": "1時間", "say": "気づいたら、一時間たってた。"},
+    {"kind": "photo", "img": "assets/photos/study/pb_7292233.jpg",
+     "text": "意志が弱いんじゃない\n仕組みがないだけ", "hl": "仕組み", "say": "意志が弱いんじゃない。仕組みがないだけ。"},
+    {"kind": "screen", "img": "assets/app_screens/lock.png",
+     "text": "やることが終わるまで\nSNSが開かない", "hl": "開かない", "say": "ロックドゥーイットなら、やることが終わるまで、SNSが開かない。"},
+    {"kind": "screen", "img": "assets/app_screens/done.png",
+     "text": "終わったら\n思いっきり休もう", "hl": "休もう", "say": "終わったら、思いっきり休もう。"},
+    {"kind": "cta", "text": "スマホに\n負けない毎日を。", "hl": "負けない", "sub": "App Storeで「Lock Do it」\n無料",
+     "say": "スマホに負けない毎日を。アップストアで、ロックドゥーイット。"}
+  ]
+}
