@@ -1,0 +1,39 @@
+{
+  "id": "a003",
+  "theme": "ToDo・やることの整理",
+  "ending": "C",
+  "hud": {"ja": "IVY LEE METHOD", "en": "IVY LEE METHOD"},
+  "caption": {
+    "ja": "やることが多すぎる日は「アイビー・リー・メソッド」✍️ 100年以上前からある、6つだけ書くToDo術。保存して今夜やってみて📌 App Storeで「Lock Do it」🔍 #ToDoリスト #タスク管理 #時間術 #LockDoit VOICEVOX:青山龍星",
+    "en": "Too much to do? Try the Ivy Lee Method ✍️ A 100-year-old to-do trick: just six tasks. Save this for tonight 📌 Search \"Lock Do it\" on the App Store 🔍 #todolist #productivity #timemanagement #lockdoit"
+  },
+  "lines": [
+    {"scene": "person", "args": {"pose": "slump", "cloud": "やること多すぎ…", "cloud_en": "Too much..."},
+     "ja": {"text": "やることが多すぎて、\n結局なにもできない日。", "hl": "なにもできない"},
+     "en": {"text": "So much to do that you\nend up doing nothing.", "hl": "doing nothing"}},
+    {"scene": "title", "args": {"big": "100年前", "big_en": "1918", "sub": "IVY LEE METHOD"},
+     "ja": {"text": "実は100年以上前に、\nその答えがあった。", "hl": "100年以上前", "say": "実は、ひゃくねん以上前に、その答えがあった。"},
+     "en": {"text": "The answer was found\nover 100 years ago.", "hl": "100 years ago"}},
+    {"scene": "bulb", "args": {"label": "IVY LEE METHOD"},
+     "ja": {"text": "コンサルタントのIvy Leeが教えた\n「アイビー・リー・メソッド」。", "hl": "アイビー・リー・メソッド", "say": "コンサルタントのアイビー・リーが教えた、アイビー・リー・メソッド。"},
+     "en": {"text": "It's called the Ivy Lee Method,\nnamed after a consultant.", "hl": "Ivy Lee Method"}},
+    {"scene": "checklist", "args": {"items": ["1. いちばん大事なこと", "2. 次に大事なこと", "…6つまで"], "items_en": ["#1 Most important", "#2 Next", "...up to six"]},
+     "ja": {"text": "寝る前に、明日やることを\n6つだけ書く。", "hl": "6つだけ", "say": "寝る前に、明日やることを、むっつだけ書く。"},
+     "en": {"text": "Before bed, write down\nonly six tasks for tomorrow.", "hl": "six tasks"}},
+    {"scene": "bars", "args": {"values": [6, 5.2, 4.4, 3.6, 2.8, 2], "labels": ["1", "2", "3", "4", "5", "6"], "hl": 0},
+     "ja": {"text": "大事な順に、\n1から6まで番号をつける。", "hl": "大事な順", "say": "大事な順に、いちからろくまで番号をつける。"},
+     "en": {"text": "Number them 1 to 6\nby importance.", "hl": "importance"}},
+    {"scene": "target", "args": {"label": "#1 ONLY"},
+     "ja": {"text": "朝は1番目だけに集中。\n終わるまで次に行かない。", "hl": "1番目だけ", "say": "朝は、いちばんめだけに集中。終わるまで次に行かない。"},
+     "en": {"text": "In the morning, focus on #1.\nDon't move on until it's done.", "hl": "#1"}},
+    {"scene": "clock", "args": {"spin": 2, "label": "TOMORROW"},
+     "ja": {"text": "終わらなかった分は、\n明日のリストに回せばいい。", "hl": "明日のリスト"},
+     "en": {"text": "Anything unfinished\ngoes on tomorrow's list.", "hl": "tomorrow's list"}},
+    {"scene": "phone", "args": {},
+     "ja": {"text": "でもスマホを開いた瞬間、\n1番目のことを忘れてしまう。", "hl": "忘れてしまう", "say": "でもスマホを開いた瞬間、いちばんめのことを忘れてしまう。"},
+     "en": {"text": "But once you open your phone,\nyou forget task #1.", "hl": "forget"}},
+    {"scene": "person", "args": {"pose": "cheer", "hero": true},
+     "ja": {"text": "やることは、少なく、順番に。\nそれだけで1日が変わる。", "hl": "少なく、順番に", "say": "やることは、少なく、順番に。それだけで、いちにちが変わる。"},
+     "en": {"text": "Do fewer things, in order.\nThat's all it takes.", "hl": "fewer things"}}
+  ]
+}

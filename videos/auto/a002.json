@@ -1,0 +1,39 @@
+{
+  "id": "a002",
+  "theme": "自己啓発",
+  "ending": "B",
+  "hud": {"ja": "THREE GOOD THINGS", "en": "THREE GOOD THINGS"},
+  "caption": {
+    "ja": "寝る前の「3つのいいこと」で、ダメな日の見え方が変わる📝 保存して今夜やってみて📌 App Storeで「Lock Do it」🔍 #自己啓発 #習慣化 #メンタル #LockDoit VOICEVOX:青山龍星",
+    "en": "Write down three good things before bed 📝 A tiny habit backed by psychology. Save this for tonight 📌 Search \"Lock Do it\" on the App Store 🔍 #selfimprovement #positivepsychology #habits #lockdoit"
+  },
+  "lines": [
+    {"scene": "person", "args": {"pose": "slump", "cloud": "今日もダメだった…", "cloud_en": "Bad day again..."},
+     "ja": {"text": "寝る前、ダメだったことばかり\n思い出していませんか？", "hl": "ダメだったこと"},
+     "en": {"text": "Before bed, do you only replay\nwhat went wrong today?", "hl": "what went wrong"}},
+    {"scene": "bulb", "args": {"label": "NEGATIVITY BIAS"},
+     "ja": {"text": "脳は、いいことより\n嫌なことを覚えやすい。", "hl": "嫌なこと"},
+     "en": {"text": "Your brain remembers bad things\nmore easily than good ones.", "hl": "bad things"}},
+    {"scene": "title", "args": {"big": "3", "sub": "THREE GOOD THINGS"},
+     "ja": {"text": "心理学者Martin Seligmanが\n広めた方法がある。", "hl": "Martin Seligman", "say": "心理学者マーティン・セリグマンが、広めた方法がある。"},
+     "en": {"text": "Psychologist Martin Seligman\npopularized a simple fix.", "hl": "Martin Seligman"}},
+    {"scene": "checklist", "args": {"items": ["よかったこと 1", "よかったこと 2", "よかったこと 3"], "items_en": ["Good thing 1", "Good thing 2", "Good thing 3"]},
+     "ja": {"text": "寝る前に、今日よかったことを\n3つ書くだけ。", "hl": "3つ書くだけ", "say": "寝る前に、今日よかったことを、みっつ書くだけ。"},
+     "en": {"text": "Before bed, write down\nthree good things from today.", "hl": "three good things"}},
+    {"scene": "person", "args": {"pose": "think", "cloud": "なんでよかった？", "cloud_en": "Why was it good?"},
+     "ja": {"text": "それぞれに「なぜよかったか」も\n一言そえる。", "hl": "なぜよかったか"},
+     "en": {"text": "For each one, add a few words\non why it went well.", "hl": "why"}},
+    {"scene": "chain", "args": {"n": 7, "label": "7 DAYS"},
+     "ja": {"text": "1週間続けた人は幸福感が上がり、\n効果は半年ほど続いた。", "hl": "半年ほど続いた", "say": "研究では、いっしゅうかん続けた人は幸福感が上がり、効果は半年ほど続いた。"},
+     "en": {"text": "In one study, a week of this\nboosted happiness for six months.", "hl": "six months"}},
+    {"scene": "split", "args": {"left": "ダメな日", "right": "いいこともあった日", "left_en": "A bad day", "right_en": "Some good, too", "left_pose": "slump", "right_pose": "cheer"},
+     "ja": {"text": "同じ1日でも、\n見るところで気分は変わる。", "hl": "気分は変わる", "say": "同じいちにちでも、見るところで気分は変わる。"},
+     "en": {"text": "Same day, different focus,\ndifferent mood.", "hl": "different mood"}},
+    {"scene": "phone", "args": {},
+     "ja": {"text": "でも寝る前にスマホを開くと、\nそのまま1時間たってしまう。", "hl": "1時間", "say": "でも寝る前にスマホを開くと、そのままいちじかんたってしまう。"},
+     "en": {"text": "But open your phone in bed,\nand an hour is gone.", "hl": "an hour"}},
+    {"scene": "battery", "args": {"from": 0.2, "to": 0.95, "label": "RECHARGE"},
+     "ja": {"text": "小さな「よかった」を数えて、\n明日の自分を元気にしよう。", "hl": "よかった"},
+     "en": {"text": "Count the small wins,\nand recharge for tomorrow.", "hl": "small wins"}}
+  ]
+}

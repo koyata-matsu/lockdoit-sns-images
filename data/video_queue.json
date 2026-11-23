@@ -18,6 +18,42 @@
     "slot": "2026-11-23 22:30"
    },
    "created": "2026-11-22"
+  },
+  {
+   "id": "a002",
+   "theme": "自己啓発",
+   "title_ja": "寝る前の「3つのいいこと」",
+   "title_en": "Three good things before bed",
+   "ending": "B",
+   "ja": {
+    "file": "videos/auto/out/a002_ja.mp4",
+    "status": "review",
+    "slot": null
+   },
+   "en": {
+    "file": "videos/auto/out/a002_en.mp4",
+    "status": "review",
+    "slot": null
+   },
+   "created": "2026-11-23"
+  },
+  {
+   "id": "a003",
+   "theme": "ToDo・やることの整理",
+   "title_ja": "100年前のToDo術 アイビー・リー・メソッド",
+   "title_en": "The Ivy Lee Method",
+   "ending": "C",
+   "ja": {
+    "file": "videos/auto/out/a003_ja.mp4",
+    "status": "review",
+    "slot": null
+   },
+   "en": {
+    "file": "videos/auto/out/a003_en.mp4",
+    "status": "review",
+    "slot": null
+   },
+   "created": "2026-11-23"
   }
  ]
 }
