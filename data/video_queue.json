@@ -27,12 +27,12 @@
    "ending": "B",
    "ja": {
     "file": "videos/auto/out/a002_ja.mp4",
-    "status": "review",
+    "status": "ok",
     "slot": null
    },
    "en": {
     "file": "videos/auto/out/a002_en.mp4",
-    "status": "review",
+    "status": "ok",
     "slot": null
    },
    "created": "2026-11-23"
@@ -45,12 +45,12 @@
    "ending": "C",
    "ja": {
     "file": "videos/auto/out/a003_ja.mp4",
-    "status": "review",
+    "status": "ok",
     "slot": null
    },
    "en": {
     "file": "videos/auto/out/a003_en.mp4",
-    "status": "review",
+    "status": "ok",
     "slot": null
    },
    "created": "2026-11-23"
