@@ -1,0 +1,39 @@
+{
+  "id": "a005",
+  "theme": "行動・先延ばし",
+  "ending": "B",
+  "hud": {"ja": "IF-THEN PLAN", "en": "IF-THEN PLAN"},
+  "caption": {
+    "ja": "「明日からやる」が続かない人へ。「いつ・どこで」を先に決める if-thenプランニング🗓️ 保存して今夜ひとつ決めてみて📌 App Storeで「Lock Do it」🔍 #先延ばし #習慣化 #行動力 #LockDoit VOICEVOX:青山龍星",
+    "en": "\"I'll start tomorrow\" never works? Try if-then planning: decide when and where first 🗓️ Save this and set one tonight 📌 Search \"Lock Do it\" on the App Store 🔍 #procrastination #habits #productivity #lockdoit"
+  },
+  "lines": [
+    {"scene": "person", "args": {"pose": "think", "cloud": "明日からやる", "cloud_en": "Starting tomorrow"},
+     "ja": {"text": "「明日からやる」と決めたのに、\nまたやらなかった。", "hl": "またやらなかった"},
+     "en": {"text": "\"I'll start tomorrow.\"\nAnd then... you didn't.", "hl": "you didn't"}},
+    {"scene": "clock", "args": {"spin": 3, "label": "SOMEDAY"},
+     "ja": {"text": "「いつか」「時間があれば」では、\n脳は動き出せない。", "hl": "動き出せない"},
+     "en": {"text": "\"Someday\" or \"when I have time\"\ngives your brain no starting cue.", "hl": "no starting cue"}},
+    {"scene": "bulb", "args": {"label": "IF-THEN PLANNING"},
+     "ja": {"text": "心理学者Gollwitzerが研究した、\n「if-thenプランニング」。", "hl": "if-thenプランニング", "say": "心理学者ゴルヴィツァーが研究した、イフゼン・プランニング。"},
+     "en": {"text": "Psychologist Peter Gollwitzer\nstudied \"if-then planning.\"", "hl": "if-then planning"}},
+    {"scene": "title", "args": {"big": "IF→THEN", "sub": "WHEN · WHERE · WHAT"},
+     "ja": {"text": "「いつ・どこで・何をするか」を\n先に決めておくだけ。", "hl": "先に決めておく"},
+     "en": {"text": "Decide when, where, and what\nahead of time.", "hl": "ahead of time"}},
+    {"scene": "split", "args": {"left": "いつか勉強する", "right": "夕食後に1ページ", "left_en": "Study someday", "right_en": "Dinner → 1 page", "left_pose": "slump", "right_pose": "cheer"},
+     "ja": {"text": "「いつか勉強する」じゃなく、\n「夕食のあと、机で1ページ」。", "hl": "夕食のあと、机で1ページ", "say": "「いつか勉強する」じゃなく、「夕食のあと、机でいちページ」。"},
+     "en": {"text": "Not \"I'll study someday.\"\nBut \"After dinner, one page.\"", "hl": "After dinner, one page."}},
+    {"scene": "target", "args": {"label": "94 STUDIES"},
+     "ja": {"text": "94の研究をまとめた分析でも、\n目標を達成しやすくなった。", "hl": "達成しやすくなった", "say": "きゅうじゅうよんの研究をまとめた分析でも、目標を達成しやすくなった。"},
+     "en": {"text": "A review of 94 studies found\nit helps people reach goals.", "hl": "reach goals"}},
+    {"scene": "door", "args": {},
+     "ja": {"text": "決めた時間が来たら、\n迷う前に体が動き出す。", "hl": "迷う前に"},
+     "en": {"text": "When the moment comes,\nyou move before you overthink.", "hl": "before you overthink"}},
+    {"scene": "phone", "args": {},
+     "ja": {"text": "でもスマホを開いた瞬間、\nその「決めた時間」を見逃してしまう。", "hl": "見逃してしまう"},
+     "en": {"text": "But once you open your phone,\nyou miss that moment.", "hl": "miss that moment"}},
+    {"scene": "stairs", "args": {"steps": 5},
+     "ja": {"text": "今夜ひとつだけ、\n「いつ・どこで」を決めてみよう。", "hl": "いつ・どこで"},
+     "en": {"text": "Tonight, pick just one:\nwhen and where you'll start.", "hl": "when and where"}}
+  ]
+}

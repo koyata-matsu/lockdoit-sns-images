@@ -54,6 +54,42 @@
     "slot": null
    },
    "created": "2026-11-23"
+  },
+  {
+   "id": "a004",
+   "theme": "自己効力感",
+   "title_ja": "小さな「できた」で自己効力感を育てる",
+   "title_en": "Build self-efficacy with small wins",
+   "ending": "A",
+   "ja": {
+    "file": "videos/auto/out/a004_ja.mp4",
+    "status": "review",
+    "slot": null
+   },
+   "en": {
+    "file": "videos/auto/out/a004_en.mp4",
+    "status": "review",
+    "slot": null
+   },
+   "created": "2026-11-24"
+  },
+  {
+   "id": "a005",
+   "theme": "行動・先延ばし",
+   "title_ja": "「明日からやる」をやめるif-thenプランニング",
+   "title_en": "If-then planning beats \"someday\"",
+   "ending": "B",
+   "ja": {
+    "file": "videos/auto/out/a005_ja.mp4",
+    "status": "review",
+    "slot": null
+   },
+   "en": {
+    "file": "videos/auto/out/a005_en.mp4",
+    "status": "review",
+    "slot": null
+   },
+   "created": "2026-11-24"
   }
  ]
 }

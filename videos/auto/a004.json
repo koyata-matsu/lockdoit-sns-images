@@ -1,0 +1,39 @@
+{
+  "id": "a004",
+  "theme": "自己効力感",
+  "ending": "A",
+  "hud": {"ja": "SELF-EFFICACY", "en": "SELF-EFFICACY"},
+  "caption": {
+    "ja": "「どうせ無理」を変えるのは、小さな「できた」✅ 心理学者Albert Banduraの「自己効力感」の話。保存して今日ひとつやってみて📌 App Storeで「Lock Do it」🔍 #自己効力感 #自己肯定感 #習慣化 #LockDoit VOICEVOX:青山龍星",
+    "en": "\"I can't do it\" changes with small wins ✅ Albert Bandura's idea of self-efficacy. Save this and try one tiny win today 📌 Search \"Lock Do it\" on the App Store 🔍 #selfefficacy #confidence #smallwins #lockdoit"
+  },
+  "lines": [
+    {"scene": "person", "args": {"pose": "slump", "cloud": "どうせ無理…", "cloud_en": "I can't..."},
+     "ja": {"text": "「どうせ自分には無理」\nそう思って、何も始められない。", "hl": "どうせ自分には無理"},
+     "en": {"text": "\"I just can't do it.\"\nSo you never even start.", "hl": "never even start"}},
+    {"scene": "bulb", "args": {"label": "SELF-EFFICACY"},
+     "ja": {"text": "その気持ちを変えるカギが、\n「自己効力感」。", "hl": "自己効力感", "say": "その気持ちを変えるカギが、じここうりょくかん。"},
+     "en": {"text": "The key to changing that:\nself-efficacy.", "hl": "self-efficacy"}},
+    {"scene": "book", "args": {"title": "Self-Efficacy", "author": "Albert Bandura"},
+     "ja": {"text": "心理学者Albert Banduraが\n広めた考え方です。", "hl": "Albert Bandura", "say": "心理学者アルバート・バンデューラが広めた考え方です。"},
+     "en": {"text": "An idea made famous by\npsychologist Albert Bandura.", "hl": "Albert Bandura"}},
+    {"scene": "bars", "args": {"values": [10, 6, 4, 3], "labels": ["体験", "お手本", "言葉", "気分"], "labels_en": ["DO", "SEE", "HEAR", "FEEL"], "hl": 0},
+     "ja": {"text": "いちばん効くのは、自分で\n「できた」を経験すること。", "hl": "「できた」"},
+     "en": {"text": "The strongest source?\nActually doing it yourself.", "hl": "doing it yourself"}},
+    {"scene": "target", "args": {"label": "TINY GOAL"},
+     "ja": {"text": "だから目標は、わざと\n「絶対できる」大きさにする。", "hl": "絶対できる"},
+     "en": {"text": "So set goals so small\nyou can't fail.", "hl": "can't fail"}},
+    {"scene": "checklist", "args": {"items": ["水を1杯飲む", "机を1分片づける", "1行だけ書く"], "items_en": ["Drink water", "Tidy for 1 minute", "Write 1 line"]},
+     "ja": {"text": "水を1杯飲む。机を1分片づける。\n終わったら、ちゃんとチェック。", "hl": "チェック", "say": "水をいっぱい飲む。机をいっぷん片づける。終わったら、ちゃんとチェック。"},
+     "en": {"text": "Drink water. Tidy for a minute.\nThen check it off.", "hl": "check it off"}},
+    {"scene": "chain", "args": {"n": 14, "label": "SMALL WINS"},
+     "ja": {"text": "小さな「できた」が積み重なると、\n「自分はできる」に変わる。", "hl": "自分はできる"},
+     "en": {"text": "Small wins add up.\nThey become \"I can do this.\"", "hl": "I can do this"}},
+    {"scene": "phone", "args": {},
+     "ja": {"text": "でもスマホを開いた瞬間、\nその小さな一歩が後回しになる。", "hl": "後回し"},
+     "en": {"text": "But once you open your phone,\nthat small step slips away.", "hl": "slips away"}},
+    {"scene": "person", "args": {"pose": "stand", "to": "cheer", "hero": true},
+     "ja": {"text": "小さな成功で、\n自分を信じる力を育てよう。", "hl": "自分を信じる力"},
+     "en": {"text": "Grow your confidence,\none small win at a time.", "hl": "one small win"}}
+  ]
+}
