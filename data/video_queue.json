@@ -27,13 +27,13 @@
    "ending": "B",
    "ja": {
     "file": "videos/auto/out/a002_ja.mp4",
-    "status": "ok",
-    "slot": null
+    "status": "scheduled",
+    "slot": "2026-11-25 12:15"
    },
    "en": {
     "file": "videos/auto/out/a002_en.mp4",
-    "status": "ok",
-    "slot": null
+    "status": "scheduled",
+    "slot": "2026-11-25 09:30"
    },
    "created": "2026-11-23"
   },
@@ -45,13 +45,13 @@
    "ending": "C",
    "ja": {
     "file": "videos/auto/out/a003_ja.mp4",
-    "status": "ok",
-    "slot": null
+    "status": "scheduled",
+    "slot": "2026-11-25 20:00"
    },
    "en": {
     "file": "videos/auto/out/a003_en.mp4",
-    "status": "ok",
-    "slot": null
+    "status": "scheduled",
+    "slot": "2026-11-25 22:30"
    },
    "created": "2026-11-23"
   },
@@ -63,13 +63,13 @@
    "ending": "A",
    "ja": {
     "file": "videos/auto/out/a004_ja.mp4",
-    "status": "ok",
-    "slot": null
+    "status": "scheduled",
+    "slot": "2026-11-26 12:15"
    },
    "en": {
     "file": "videos/auto/out/a004_en.mp4",
-    "status": "ok",
-    "slot": null
+    "status": "scheduled",
+    "slot": "2026-11-26 09:30"
    },
    "created": "2026-11-24"
   },
@@ -81,13 +81,13 @@
    "ending": "B",
    "ja": {
     "file": "videos/auto/out/a005_ja.mp4",
-    "status": "ok",
-    "slot": null
+    "status": "scheduled",
+    "slot": "2026-11-26 20:00"
    },
    "en": {
     "file": "videos/auto/out/a005_en.mp4",
-    "status": "ok",
-    "slot": null
+    "status": "scheduled",
+    "slot": "2026-11-26 22:30"
    },
    "created": "2026-11-24"
   }
