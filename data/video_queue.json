@@ -1,131 +1,131 @@
 {
- "note": "自動動画のキュー。status: review(こやたさんの確認待ち) → ok(予約してよい) → scheduled(予約ずみ) / redo(作り直し) / skip(使わない)。日本語は TikTok日本語2＋インスタtodo_lock の 12:15・20:00 枠、英語は Buffer(@sequiylas71) の 09:30・22:30 枠。動画の場所は videos/auto/out/<id>_<ja|en>.mp4",
- "videos": [
-  {
-   "id": "a001",
-   "theme": "先延ばし×本",
-   "title_ja": "やる気が出ない日は2分ルール",
-   "title_en": "The two-minute rule",
-   "ending": "A",
-   "ja": {
-    "file": "videos/auto/out/a001_ja.mp4",
-    "status": "scheduled",
-    "slot": "2026-11-24 12:15"
-   },
-   "en": {
-    "file": "videos/auto/out/a001_en.mp4",
-    "status": "scheduled",
-    "slot": "2026-11-23 22:30"
-   },
-   "created": "2026-11-22"
-  },
-  {
-   "id": "a002",
-   "theme": "自己啓発",
-   "title_ja": "寝る前の「3つのいいこと」",
-   "title_en": "Three good things before bed",
-   "ending": "B",
-   "ja": {
-    "file": "videos/auto/out/a002_ja.mp4",
-    "status": "scheduled",
-    "slot": "2026-11-25 12:15"
-   },
-   "en": {
-    "file": "videos/auto/out/a002_en.mp4",
-    "status": "scheduled",
-    "slot": "2026-11-25 09:30"
-   },
-   "created": "2026-11-23"
-  },
-  {
-   "id": "a003",
-   "theme": "ToDo・やることの整理",
-   "title_ja": "100年前のToDo術 アイビー・リー・メソッド",
-   "title_en": "The Ivy Lee Method",
-   "ending": "C",
-   "ja": {
-    "file": "videos/auto/out/a003_ja.mp4",
-    "status": "scheduled",
-    "slot": "2026-11-25 20:00"
-   },
-   "en": {
-    "file": "videos/auto/out/a003_en.mp4",
-    "status": "scheduled",
-    "slot": "2026-11-25 22:30"
-   },
-   "created": "2026-11-23"
-  },
-  {
-   "id": "a004",
-   "theme": "自己効力感",
-   "title_ja": "小さな「できた」で自己効力感を育てる",
-   "title_en": "Build self-efficacy with small wins",
-   "ending": "A",
-   "ja": {
-    "file": "videos/auto/out/a004_ja.mp4",
-    "status": "scheduled",
-    "slot": "2026-11-26 12:15"
-   },
-   "en": {
-    "file": "videos/auto/out/a004_en.mp4",
-    "status": "scheduled",
-    "slot": "2026-11-26 09:30"
-   },
-   "created": "2026-11-24"
-  },
-  {
-   "id": "a005",
-   "theme": "行動・先延ばし",
-   "title_ja": "「明日からやる」をやめるif-thenプランニング",
-   "title_en": "If-then planning beats \"someday\"",
-   "ending": "B",
-   "ja": {
-    "file": "videos/auto/out/a005_ja.mp4",
-    "status": "scheduled",
-    "slot": "2026-11-26 20:00"
-   },
-   "en": {
-    "file": "videos/auto/out/a005_en.mp4",
-    "status": "scheduled",
-    "slot": "2026-11-26 22:30"
-   },
-   "created": "2026-11-24"
-  },
-  {
-   "id": "a006",
-   "theme": "本の内容",
-   "title_ja": "『Indistractable』の10分ルール",
-   "title_en": "The 10-minute rule (Indistractable)",
-   "ending": "C",
-   "ja": {
-    "file": "videos/auto/out/a006_ja.mp4",
-    "status": "ok",
-    "slot": null
-   },
-   "en": {
-    "file": "videos/auto/out/a006_en.mp4",
-    "status": "ok",
-    "slot": null
-   },
-   "created": "2026-11-25"
-  },
-  {
-   "id": "a007",
-   "theme": "自己啓発",
-   "title_ja": "比べるのは昨日の自分",
-   "title_en": "Compare yourself to yesterday",
-   "ending": "A",
-   "ja": {
-    "file": "videos/auto/out/a007_ja.mp4",
-    "status": "ok",
-    "slot": null
-   },
-   "en": {
-    "file": "videos/auto/out/a007_en.mp4",
-    "status": "ok",
-    "slot": null
-   },
-   "created": "2026-11-25"
-  }
- ]
+  "note": "自動動画のキュー。status: review(こやたさんの確認待ち) → ok(予約してよい) → scheduled(予約ずみ) / redo(作り直し) / skip(使わない)。日本語は TikTok日本語2＋インスタtodo_lock の 12:15・20:00 枠、英語は Buffer(@sequiylas71) の 09:30・22:30 枠。動画の場所は videos/auto/out/<id>_<ja|en>.mp4",
+  "videos": [
+    {
+      "id": "a001",
+      "theme": "先延ばし×本",
+      "title_ja": "やる気が出ない日は2分ルール",
+      "title_en": "The two-minute rule",
+      "ending": "A",
+      "ja": {
+        "file": "videos/auto/out/a001_ja.mp4",
+        "status": "scheduled",
+        "slot": "2026-11-24 12:15"
+      },
+      "en": {
+        "file": "videos/auto/out/a001_en.mp4",
+        "status": "scheduled",
+        "slot": "2026-11-23 22:30"
+      },
+      "created": "2026-11-22"
+    },
+    {
+      "id": "a002",
+      "theme": "自己啓発",
+      "title_ja": "寝る前の「3つのいいこと」",
+      "title_en": "Three good things before bed",
+      "ending": "B",
+      "ja": {
+        "file": "videos/auto/out/a002_ja.mp4",
+        "status": "scheduled",
+        "slot": "2026-11-25 12:15"
+      },
+      "en": {
+        "file": "videos/auto/out/a002_en.mp4",
+        "status": "scheduled",
+        "slot": "2026-11-25 09:30"
+      },
+      "created": "2026-11-23"
+    },
+    {
+      "id": "a003",
+      "theme": "ToDo・やることの整理",
+      "title_ja": "100年前のToDo術 アイビー・リー・メソッド",
+      "title_en": "The Ivy Lee Method",
+      "ending": "C",
+      "ja": {
+        "file": "videos/auto/out/a003_ja.mp4",
+        "status": "scheduled",
+        "slot": "2026-11-25 20:00"
+      },
+      "en": {
+        "file": "videos/auto/out/a003_en.mp4",
+        "status": "scheduled",
+        "slot": "2026-11-25 22:30"
+      },
+      "created": "2026-11-23"
+    },
+    {
+      "id": "a004",
+      "theme": "自己効力感",
+      "title_ja": "小さな「できた」で自己効力感を育てる",
+      "title_en": "Build self-efficacy with small wins",
+      "ending": "A",
+      "ja": {
+        "file": "videos/auto/out/a004_ja.mp4",
+        "status": "scheduled",
+        "slot": "2026-11-26 12:15"
+      },
+      "en": {
+        "file": "videos/auto/out/a004_en.mp4",
+        "status": "scheduled",
+        "slot": "2026-11-26 09:30"
+      },
+      "created": "2026-11-24"
+    },
+    {
+      "id": "a005",
+      "theme": "行動・先延ばし",
+      "title_ja": "「明日からやる」をやめるif-thenプランニング",
+      "title_en": "If-then planning beats \"someday\"",
+      "ending": "B",
+      "ja": {
+        "file": "videos/auto/out/a005_ja.mp4",
+        "status": "scheduled",
+        "slot": "2026-11-26 20:00"
+      },
+      "en": {
+        "file": "videos/auto/out/a005_en.mp4",
+        "status": "scheduled",
+        "slot": "2026-11-26 22:30"
+      },
+      "created": "2026-11-24"
+    },
+    {
+      "id": "a006",
+      "theme": "本の内容",
+      "title_ja": "『Indistractable』の10分ルール",
+      "title_en": "The 10-minute rule (Indistractable)",
+      "ending": "C",
+      "ja": {
+        "file": "videos/auto/out/a006_ja.mp4",
+        "status": "scheduled",
+        "slot": "2026-11-27 12:15"
+      },
+      "en": {
+        "file": "videos/auto/out/a006_en.mp4",
+        "status": "ok",
+        "slot": null
+      },
+      "created": "2026-11-25"
+    },
+    {
+      "id": "a007",
+      "theme": "自己啓発",
+      "title_ja": "比べるのは昨日の自分",
+      "title_en": "Compare yourself to yesterday",
+      "ending": "A",
+      "ja": {
+        "file": "videos/auto/out/a007_ja.mp4",
+        "status": "scheduled",
+        "slot": "2026-11-27 20:00"
+      },
+      "en": {
+        "file": "videos/auto/out/a007_en.mp4",
+        "status": "ok",
+        "slot": null
+      },
+      "created": "2026-11-25"
+    }
+  ]
 }
