@@ -90,6 +90,42 @@
     "slot": "2026-11-26 22:30"
    },
    "created": "2026-11-24"
+  },
+  {
+   "id": "a006",
+   "theme": "本の内容",
+   "title_ja": "『Indistractable』の10分ルール",
+   "title_en": "The 10-minute rule (Indistractable)",
+   "ending": "C",
+   "ja": {
+    "file": "videos/auto/out/a006_ja.mp4",
+    "status": "review",
+    "slot": null
+   },
+   "en": {
+    "file": "videos/auto/out/a006_en.mp4",
+    "status": "review",
+    "slot": null
+   },
+   "created": "2026-11-25"
+  },
+  {
+   "id": "a007",
+   "theme": "自己啓発",
+   "title_ja": "比べるのは昨日の自分",
+   "title_en": "Compare yourself to yesterday",
+   "ending": "A",
+   "ja": {
+    "file": "videos/auto/out/a007_ja.mp4",
+    "status": "review",
+    "slot": null
+   },
+   "en": {
+    "file": "videos/auto/out/a007_en.mp4",
+    "status": "review",
+    "slot": null
+   },
+   "created": "2026-11-25"
   }
  ]
 }

@@ -1,0 +1,39 @@
+{
+  "id": "a007",
+  "theme": "自己啓発",
+  "ending": "A",
+  "hud": {"ja": "COMPARE WITH YESTERDAY", "en": "COMPARE WITH YESTERDAY"},
+  "caption": {
+    "ja": "SNSを見て落ち込むなら、比べる相手を「昨日の自分」に変えよう🌱 保存して今夜やってみて📌 App Storeで「Lock Do it」🔍 #自己啓発 #自分磨き #メンタル #LockDoit",
+    "en": "Feel worse after scrolling? Compare yourself to yesterday, not to others 🌱 Save this for tonight 📌 Search \"Lock Do it\" on the App Store 🔍 #selfimprovement #mindset #growth #lockdoit"
+  },
+  "lines": [
+    {"scene": "person", "args": {"pose": "slump", "cloud": "はぁ…", "cloud_en": "Sigh..."},
+     "ja": {"text": "SNSを見たあと、\nなぜか落ち込む。", "hl": "落ち込む"},
+     "en": {"text": "You scroll social media...\nand somehow feel worse.", "hl": "feel worse"}},
+    {"scene": "phone", "args": {},
+     "ja": {"text": "流れてくるのは、\n他人の一番いい瞬間だけ。", "hl": "一番いい瞬間"},
+     "en": {"text": "All you see are other people's\nbest moments.", "hl": "best moments"}},
+    {"scene": "bars", "args": {"values": [9, 8, 9, 4], "labels": ["A", "B", "C", "ME"], "hl": 3},
+     "ja": {"text": "それと自分の普段を比べたら、\n負けて当たり前。", "hl": "負けて当たり前"},
+     "en": {"text": "Compare that to your normal day,\nand of course you'll lose.", "hl": "you'll lose"}},
+    {"scene": "title", "args": {"big": "昨日の自分", "big_en": "YESTERDAY", "sub": "COMPARE WITH YESTERDAY"},
+     "ja": {"text": "比べる相手は、\n昨日の自分にしよう。", "hl": "昨日の自分"},
+     "en": {"text": "Compare yourself to\nwho you were yesterday.", "hl": "yesterday"}},
+    {"scene": "checklist", "args": {"items": ["本を5ページ読んだ", "早く起きた", "部屋を片づけた"], "items_en": ["Read 5 pages", "Woke up earlier", "Cleaned my room"]},
+     "ja": {"text": "寝る前に、昨日より\nできたことを1つ書く。", "hl": "1つ", "say": "寝る前に、昨日より、できたことをひとつ書く。"},
+     "en": {"text": "Before bed, write one thing\nyou did better than yesterday.", "hl": "one thing"}},
+    {"scene": "curve", "args": {"label": "1% BETTER"},
+     "ja": {"text": "小さな差でも、\n続ければ大きな差になる。", "hl": "大きな差"},
+     "en": {"text": "Small gains, day after day,\nadd up to something big.", "hl": "something big"}},
+    {"scene": "split", "args": {"left": "他人", "right": "昨日の自分", "left_en": "OTHERS", "right_en": "YESTERDAY", "left_pose": "slump", "right_pose": "cheer"},
+     "ja": {"text": "他人と比べると、すり減る。\n昨日と比べると、伸びていく。", "hl": "伸びていく"},
+     "en": {"text": "Compare to others: you drain.\nCompare to yesterday: you grow.", "hl": "you grow"}},
+    {"scene": "person", "args": {"pose": "phone", "cloud": "あの人すごい…", "cloud_en": "They're so good..."},
+     "ja": {"text": "でも、スマホを開くたびに、\nまた他人と比べてしまう。", "hl": "また他人と比べて"},
+     "en": {"text": "But each time you open your phone,\nthe comparing starts again.", "hl": "starts again"}},
+    {"scene": "stairs", "args": {"steps": 6},
+     "ja": {"text": "昨日より、ほんの少し前へ。\nそれで十分。", "hl": "十分", "say": "昨日より、ほんの少し前へ。それでじゅうぶん。"},
+     "en": {"text": "A bit better than yesterday.\nThat's enough.", "hl": "enough"}}
+  ]
+}

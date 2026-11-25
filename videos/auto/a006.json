@@ -1,0 +1,39 @@
+{
+  "id": "a006",
+  "theme": "本の内容",
+  "ending": "C",
+  "hud": {"ja": "10-MINUTE RULE", "en": "10-MINUTE RULE"},
+  "caption": {
+    "ja": "ついスマホを触ってしまうのは、心の中に原因がある📱 Nir Eyal『Indistractable』の「10分ルール」。保存して試してみて📌 App Storeで「Lock Do it」🔍 #スマホ依存 #集中力 #本紹介 #LockDoit",
+    "en": "Why you keep reaching for your phone — and the 10-minute rule from Nir Eyal's Indistractable 📱 Save this and try it today 📌 Search \"Lock Do it\" on the App Store 🔍 #indistractable #focus #phoneaddiction #lockdoit"
+  },
+  "lines": [
+    {"scene": "person", "args": {"pose": "phone", "cloud": "ちょっとだけ…", "cloud_en": "Just a sec..."},
+     "ja": {"text": "気づいたら、\nまたスマホを触ってる。", "hl": "スマホ"},
+     "en": {"text": "You pick up your phone\nwithout even thinking.", "hl": "phone"}},
+    {"scene": "book", "args": {"title": "Indistractable", "author": "Nir Eyal"},
+     "ja": {"text": "Nir Eyalの本\n『Indistractable』では、", "hl": "Indistractable", "say": "ニール・イヤールの本、インディストラクタブルでは、"},
+     "en": {"text": "In Indistractable,\nNir Eyal points out something.", "hl": "Indistractable"}},
+    {"scene": "bulb", "args": {},
+     "ja": {"text": "気が散る本当の原因は、\nスマホではなく心の中にある。", "hl": "心の中"},
+     "en": {"text": "Distraction doesn't start with\nyour phone. It starts inside.", "hl": "inside"}},
+    {"scene": "person", "args": {"pose": "think", "cloud": "退屈…", "cloud_en": "Bored..."},
+     "ja": {"text": "退屈・不安・めんどくさい。\nその気持ちから逃げたくて、触ってしまう。", "hl": "逃げたくて"},
+     "en": {"text": "Boredom. Worry. Dread.\nWe reach for the phone to escape.", "hl": "escape"}},
+    {"scene": "clock", "args": {"spin": 2, "label": "10 MIN"},
+     "ja": {"text": "そこで「10分ルール」。\n触りたくなったら、10分だけ待つ。", "hl": "10分ルール", "say": "そこで、じゅっぷんルール。触りたくなったら、じゅっぷんだけ待つ。"},
+     "en": {"text": "Try the 10-minute rule.\nFeel the urge? Wait 10 minutes.", "hl": "10-minute rule"}},
+    {"scene": "checklist", "args": {"items": ["気持ちに気づく", "メモに書く", "10分待つ"], "items_en": ["Notice the feeling", "Write it down", "Wait 10 minutes"]},
+     "ja": {"text": "その間に、今の気持ちを\nメモに書いておく。", "hl": "メモ"},
+     "en": {"text": "While you wait,\nwrite down what you're feeling.", "hl": "write down"}},
+    {"scene": "battery", "args": {"from": 0.95, "to": 0.15, "label": "URGE"},
+     "ja": {"text": "衝動は波のように、\nしばらくすると引いていく。", "hl": "引いていく"},
+     "en": {"text": "Urges come like waves.\nGive it time, and they pass.", "hl": "they pass"}},
+    {"scene": "phone", "args": {},
+     "ja": {"text": "でも、スマホが手元にあると、\n10分も待てないことが多い。", "hl": "待てない", "say": "でも、スマホが手元にあると、じゅっぷんも待てないことが多い。"},
+     "en": {"text": "But with your phone in your hand,\n10 minutes feels impossible.", "hl": "impossible"}},
+    {"scene": "target", "args": {},
+     "ja": {"text": "原因がわかれば、\nもう振り回されない。", "hl": "振り回されない"},
+     "en": {"text": "Know the cause,\nand it loses its grip on you.", "hl": "loses its grip"}}
+  ]
+}
