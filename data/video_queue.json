@@ -104,8 +104,8 @@
       },
       "en": {
         "file": "videos/auto/out/a006_en.mp4",
-        "status": "ok",
-        "slot": null
+        "status": "scheduled",
+        "slot": "2026-11-27 09:30"
       },
       "created": "2026-11-25"
     },
@@ -122,8 +122,8 @@
       },
       "en": {
         "file": "videos/auto/out/a007_en.mp4",
-        "status": "ok",
-        "slot": null
+        "status": "scheduled",
+        "slot": "2026-11-27 22:30"
       },
       "created": "2026-11-25"
     }
