@@ -135,13 +135,13 @@
       "ending": "B",
       "ja": {
         "file": "videos/auto/out/a008_ja.mp4",
-        "status": "ok",
-        "slot": null
+        "status": "scheduled",
+        "slot": "2026-11-28 12:15"
       },
       "en": {
         "file": "videos/auto/out/a008_en.mp4",
-        "status": "ok",
-        "slot": null
+        "status": "scheduled",
+        "slot": "2026-11-28 09:30"
       },
       "created": "2026-11-26"
     },
@@ -153,13 +153,13 @@
       "ending": "C",
       "ja": {
         "file": "videos/auto/out/a009_ja.mp4",
-        "status": "ok",
-        "slot": null
+        "status": "scheduled",
+        "slot": "2026-11-28 20:00"
       },
       "en": {
         "file": "videos/auto/out/a009_en.mp4",
-        "status": "ok",
-        "slot": null
+        "status": "scheduled",
+        "slot": "2026-11-28 22:30"
       },
       "created": "2026-11-26"
     }
