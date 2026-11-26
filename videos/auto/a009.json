@@ -1,0 +1,158 @@
+{
+  "id": "a009",
+  "theme": "自己効力感",
+  "ending": "C",
+  "hud": {
+    "ja": "VICARIOUS EXPERIENCE",
+    "en": "VICARIOUS EXPERIENCE"
+  },
+  "caption": {
+    "ja": "「あの人だからできた」と思ったら、自分に似た人の「最初の一歩」をまねしてみて👣 心理学者Albert Banduraの「代理経験」の話。保存して今日さがしてみて📌 App Storeで「Lock Do it」🔍 #自己効力感 #自己肯定感 #自分磨き #LockDoit VOICEVOX:青山龍星",
+    "en": "\"They're just special\"? Find someone like you and copy their first step 👣 Albert Bandura's idea of vicarious experience. Save this 📌 Search \"Lock Do it\" on the App Store 🔍 #selfefficacy #confidence #mindset #lockdoit"
+  },
+  "lines": [
+    {
+      "scene": "person",
+      "args": {
+        "pose": "slump",
+        "cloud": "自分には無理かも",
+        "cloud_en": "Not for me..."
+      },
+      "ja": {
+        "text": "「あの人だからできたんだ」\nそう思ったこと、ありませんか。",
+        "hl": "あの人だから"
+      },
+      "en": {
+        "text": "\"They did it because\nthey're special.\" Sound familiar?",
+        "hl": "they're special"
+      }
+    },
+    {
+      "scene": "split",
+      "args": {
+        "left": "自分",
+        "right": "すごい人",
+        "left_en": "ME",
+        "right_en": "SUPERSTAR",
+        "left_pose": "slump",
+        "right_pose": "cheer"
+      },
+      "ja": {
+        "text": "遠すぎる人を見ると、\n差を感じて落ち込むだけ。",
+        "hl": "落ち込む"
+      },
+      "en": {
+        "text": "Looking at people far ahead\njust makes you feel behind.",
+        "hl": "feel behind"
+      }
+    },
+    {
+      "scene": "book",
+      "args": {
+        "title": "代理経験",
+        "title_en": "Vicarious Experience",
+        "author": "Albert Bandura"
+      },
+      "ja": {
+        "text": "Albert Banduraによると、\n「できる」は人を見ても育つ。",
+        "hl": "人を見ても育つ",
+        "say": "アルバート・バンデューラによると、できる、という気持ちは、人を見ても育つ。"
+      },
+      "en": {
+        "text": "Albert Bandura said confidence\ncan grow by watching others.",
+        "hl": "watching others"
+      }
+    },
+    {
+      "scene": "bulb",
+      "args": {},
+      "ja": {
+        "text": "カギは、自分に\n「似ている人」を見ること。",
+        "hl": "似ている人"
+      },
+      "en": {
+        "text": "The key: watch someone\nwho's like you.",
+        "hl": "like you"
+      }
+    },
+    {
+      "scene": "stairs",
+      "args": {
+        "steps": 5
+      },
+      "ja": {
+        "text": "同じくらいの場所から、\n少しずつ進んだ人の話。",
+        "hl": "少しずつ進んだ人"
+      },
+      "en": {
+        "text": "Someone who started where you are\nand moved up step by step.",
+        "hl": "step by step"
+      }
+    },
+    {
+      "scene": "person",
+      "args": {
+        "pose": "think",
+        "to": "walk",
+        "cloud": "自分もできそう",
+        "cloud_en": "Maybe I can too"
+      },
+      "ja": {
+        "text": "「あの人にできたなら、\n自分にもできそう」に変わる。",
+        "hl": "自分にもできそう"
+      },
+      "en": {
+        "text": "\"If they did it,\nmaybe I can too.\"",
+        "hl": "I can too"
+      }
+    },
+    {
+      "scene": "checklist",
+      "args": {
+        "items": [
+          "似た人を1人さがす",
+          "最初の一歩を知る",
+          "同じ一歩をまねる"
+        ],
+        "items_en": [
+          "Find someone like you",
+          "Learn their first step",
+          "Copy that one step"
+        ]
+      },
+      "ja": {
+        "text": "その人の「最初の一歩」を\nそのまま、まねしてみる。",
+        "hl": "最初の一歩",
+        "say": "その人の、さいしょのいっぽを、そのまま、まねしてみる。"
+      },
+      "en": {
+        "text": "Copy their very first step,\nexactly as they did it.",
+        "hl": "first step"
+      }
+    },
+    {
+      "scene": "phone",
+      "args": {},
+      "ja": {
+        "text": "でもスマホを開くと、\nすごすぎる人ばかり流れてくる。",
+        "hl": "すごすぎる人ばかり"
+      },
+      "en": {
+        "text": "But open your phone, and it's\nall superhumans again.",
+        "hl": "superhumans"
+      }
+    },
+    {
+      "scene": "door",
+      "args": {},
+      "ja": {
+        "text": "天才より、少し先を行く人。\nそこから「できる」が始まる。",
+        "hl": "少し先を行く人"
+      },
+      "en": {
+        "text": "Not a far-off genius.\nSomeone a step ahead. Start there.",
+        "hl": "a step ahead"
+      }
+    }
+  ]
+}

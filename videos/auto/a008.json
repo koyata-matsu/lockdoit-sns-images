@@ -1,0 +1,39 @@
+{
+  "id": "a008",
+  "theme": "ToDo・やることの整理",
+  "ending": "B",
+  "hud": {"ja": "BRAIN DUMP", "en": "BRAIN DUMP"},
+  "caption": {
+    "ja": "やることが頭の中でぐるぐるする日は、全部紙に書き出そう📝 「いつやるか」まで決めると気持ちが軽くなる。保存して今夜やってみて📌 App Storeで「Lock Do it」🔍 #ToDoリスト #タスク管理 #頭の整理 #LockDoit VOICEVOX:青山龍星",
+    "en": "To-dos looping in your head? Write them all down and give each one a time 📝 Save this for tonight 📌 Search \"Lock Do it\" on the App Store 🔍 #todolist #productivity #braindump #lockdoit"
+  },
+  "lines": [
+    {"scene": "person", "args": {"pose": "think", "cloud": "あれもこれも…", "cloud_en": "So much to do..."},
+     "ja": {"text": "「やらなきゃ」が頭の中で\nぐるぐる回って集中できない。", "hl": "ぐるぐる"},
+     "en": {"text": "Your to-dos keep looping\nin your head. You can't focus.", "hl": "looping"}},
+    {"scene": "bulb", "args": {},
+     "ja": {"text": "終わっていないことほど、\n頭に残りやすい。", "hl": "頭に残りやすい"},
+     "en": {"text": "Unfinished tasks are the ones\nyour brain won't let go of.", "hl": "won't let go"}},
+    {"scene": "book", "args": {"title": "ツァイガルニク効果", "title_en": "Zeigarnik Effect", "author": "Bluma Zeigarnik"},
+     "ja": {"text": "心理学で「ツァイガルニク効果」\nと呼ばれるものです。", "hl": "ツァイガルニク効果", "say": "心理学で、ツァイガルニクこうか、と呼ばれるものです。"},
+     "en": {"text": "Psychologists call it\nthe Zeigarnik effect.", "hl": "Zeigarnik effect"}},
+    {"scene": "battery", "args": {"from": 0.85, "to": 0.2},
+     "ja": {"text": "気になることを全部覚えておくと、\n頭がどんどん疲れていく。", "hl": "疲れていく"},
+     "en": {"text": "Holding it all in your head\nslowly drains you.", "hl": "drains you"}},
+    {"scene": "checklist", "args": {"items": ["メールを返す", "洗濯する", "資料をまとめる"], "items_en": ["Reply to emails", "Do the laundry", "Finish the report"]},
+     "ja": {"text": "まずは紙に、気になることを\n全部書き出す。", "hl": "全部書き出す"},
+     "en": {"text": "So write every worry down\non paper.", "hl": "every worry"}},
+    {"scene": "target", "args": {},
+     "ja": {"text": "それぞれ「いつやるか」まで\n決めておく。", "hl": "いつやるか", "say": "それぞれ、いつやるかまで、決めておく。"},
+     "en": {"text": "Then give each one a time:\nwhen will you do it?", "hl": "when will you do it"}},
+    {"scene": "clock", "args": {"label": "MAKE A PLAN", "spin": 2},
+     "ja": {"text": "計画を書くだけで、気がかりが\n減るという研究もあります。", "hl": "計画を書くだけ"},
+     "en": {"text": "One study found making a plan\neases those nagging thoughts.", "hl": "making a plan"}},
+    {"scene": "phone", "args": {},
+     "ja": {"text": "でもスマホを開いた瞬間、\n書いたリストを忘れてしまう。", "hl": "忘れてしまう"},
+     "en": {"text": "But once you open your phone,\nyou forget the list.", "hl": "forget the list"}},
+    {"scene": "person", "args": {"pose": "stand", "to": "cheer"},
+     "ja": {"text": "頭の中は、紙にあずける。\nそれだけで心が軽くなる。", "hl": "心が軽くなる"},
+     "en": {"text": "Let paper hold your thoughts.\nYour mind gets lighter.", "hl": "lighter"}}
+  ]
+}

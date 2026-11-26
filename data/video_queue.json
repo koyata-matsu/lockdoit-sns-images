@@ -126,6 +126,42 @@
         "slot": "2026-11-27 22:30"
       },
       "created": "2026-11-25"
+    },
+    {
+      "id": "a008",
+      "theme": "ToDo・やることの整理",
+      "title_ja": "頭の中を全部書き出す（ツァイガルニク効果）",
+      "title_en": "Brain dump: the Zeigarnik effect",
+      "ending": "B",
+      "ja": {
+        "file": "videos/auto/out/a008_ja.mp4",
+        "status": "review",
+        "slot": null
+      },
+      "en": {
+        "file": "videos/auto/out/a008_en.mp4",
+        "status": "review",
+        "slot": null
+      },
+      "created": "2026-11-26"
+    },
+    {
+      "id": "a009",
+      "theme": "自己効力感",
+      "title_ja": "「似た人」を見て「できる」を育てる（代理経験）",
+      "title_en": "Vicarious experience: watch someone like you",
+      "ending": "C",
+      "ja": {
+        "file": "videos/auto/out/a009_ja.mp4",
+        "status": "review",
+        "slot": null
+      },
+      "en": {
+        "file": "videos/auto/out/a009_en.mp4",
+        "status": "review",
+        "slot": null
+      },
+      "created": "2026-11-26"
     }
   ]
 }
