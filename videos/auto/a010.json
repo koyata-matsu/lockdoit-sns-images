@@ -1,0 +1,39 @@
+{
+  "id": "a010",
+  "theme": "行動・先延ばし",
+  "ending": "A",
+  "hud": {"ja": "TEMPTATION BUNDLING", "en": "TEMPTATION BUNDLING"},
+  "caption": {
+    "ja": "やりたくないことは「好きなこと」とセットにする🎧 行動科学者Katy Milkmanの「誘惑バンドリング」。保存して今日ひとつ組み合わせてみて📌 App Storeで「Lock Do it」🔍 #先延ばし #習慣化 #行動科学 #LockDoit",
+    "en": "Dreading a task? Pair it with something you love 🎧 Temptation bundling, from behavioral scientist Katy Milkman. Save this and make one pair today 📌 Search \"Lock Do it\" on the App Store 🔍 #procrastination #habits #productivity #lockdoit"
+  },
+  "lines": [
+    {"scene": "person", "args": {"pose": "slump", "cloud": "あとでいいや…", "cloud_en": "Maybe later..."},
+     "ja": {"text": "やりたくないことほど、\nつい後回しにしてしまう。", "hl": "後回し"},
+     "en": {"text": "The things you dread\nare the ones you put off.", "hl": "put off"}},
+    {"scene": "split", "args": {"left": "やるべきこと", "right": "やりたいこと", "left_en": "SHOULD", "right_en": "WANT", "left_pose": "slump", "right_pose": "cheer"},
+     "ja": {"text": "「やるべきこと」には、\nすぐのごほうびがないから。", "hl": "ごほうび"},
+     "en": {"text": "Things you should do\ndon't feel good right away.", "hl": "feel good"}},
+    {"scene": "bulb", "args": {},
+     "ja": {"text": "行動科学者\nKaty Milkmanの研究がある。", "hl": "Katy Milkman", "say": "行動科学者、ケイティ・ミルクマンの研究がある。"},
+     "en": {"text": "Behavioral scientist Katy Milkman\nstudied a simple fix.", "hl": "Katy Milkman"}},
+    {"scene": "title", "args": {"big": "セット", "big_en": "BUNDLE", "sub": "TEMPTATION BUNDLING"},
+     "ja": {"text": "「誘惑バンドリング」。\nやることを、好きなこととセットにする。", "hl": "誘惑バンドリング", "say": "ゆうわくバンドリング。やることを、好きなこととセットにする。"},
+     "en": {"text": "It's called temptation bundling.\nPair a chore with a treat.", "hl": "temptation bundling"}},
+    {"scene": "person", "args": {"pose": "walk", "cloud": "続きが気になる！", "cloud_en": "What happens next?"},
+     "ja": {"text": "実験では、続きが気になる小説を\nジムでだけ聴けるようにした。", "hl": "ジムでだけ"},
+     "en": {"text": "In her study, gripping audiobooks\nwere only allowed at the gym.", "hl": "only allowed at the gym"}},
+    {"scene": "bars", "args": {"values": [4, 6], "labels": ["ふつう", "セット"], "labels_en": ["Normal", "Bundled"], "hl": 1},
+     "ja": {"text": "すると、ジムに行く回数が\nちゃんと増えた。", "hl": "増えた"},
+     "en": {"text": "And people went to the gym\nmore often.", "hl": "more often"}},
+    {"scene": "checklist", "args": {"items": ["勉強＋好きなカフェ", "掃除＋ポッドキャスト", "運動＋好きな音楽"], "items_en": ["Study + favorite café", "Clean + podcast", "Run + playlist"]},
+     "ja": {"text": "勉強は好きなカフェで。\n掃除はポッドキャストを聴きながら。", "hl": "好きなカフェ"},
+     "en": {"text": "Study at your favorite café.\nClean with a podcast on.", "hl": "favorite café"}},
+    {"scene": "phone", "args": {},
+     "ja": {"text": "でも、スマホを開いた瞬間、\nごほうびだけ先にもらえてしまう。", "hl": "ごほうびだけ先に"},
+     "en": {"text": "But your phone hands you the treat\nwith no work at all.", "hl": "the treat"}},
+    {"scene": "target", "args": {},
+     "ja": {"text": "ごほうびは、やった後に。\nそれだけで動ける日が増える。", "hl": "やった後に"},
+     "en": {"text": "Treat after the task.\nThat's how you get moving.", "hl": "after the task"}}
+  ]
+}

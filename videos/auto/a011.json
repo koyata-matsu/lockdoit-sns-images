@@ -1,0 +1,39 @@
+{
+  "id": "a011",
+  "theme": "本の内容",
+  "ending": "B",
+  "hud": {"ja": "ATTENTION RESIDUE", "en": "ATTENTION RESIDUE"},
+  "caption": {
+    "ja": "メール1通で集中が戻らないのは「注意残余」のせい🧠 Cal Newport『Deep Work』より。保存して次の勉強時間に試してみて📌 App Storeで「Lock Do it」🔍 #集中力 #本紹介 #勉強垢 #LockDoit",
+    "en": "Why one quick email wrecks your focus: attention residue 🧠 From Cal Newport's Deep Work. Save this for your next work session 📌 Search \"Lock Do it\" on the App Store 🔍 #deepwork #focus #booktok #lockdoit"
+  },
+  "lines": [
+    {"scene": "person", "args": {"pose": "think", "cloud": "何してたっけ…", "cloud_en": "Where was I?"},
+     "ja": {"text": "メールを1通返しただけなのに、\nなかなか集中が戻らない。", "hl": "集中が戻らない", "say": "メールをいっつう返しただけなのに、なかなか集中が戻らない。"},
+     "en": {"text": "You answer one quick email,\nand your focus never comes back.", "hl": "never comes back"}},
+    {"scene": "book", "args": {"title": "Deep Work", "author": "Cal Newport"},
+     "ja": {"text": "Cal Newportの本\n『Deep Work』に答えがある。", "hl": "Deep Work", "say": "カル・ニューポートの本、ディープ・ワークに答えがある。"},
+     "en": {"text": "Cal Newport's book Deep Work\nexplains why.", "hl": "Deep Work"}},
+    {"scene": "title", "args": {"big": "注意残余", "big_en": "RESIDUE", "sub": "ATTENTION RESIDUE"},
+     "ja": {"text": "それが「注意残余」。", "hl": "注意残余", "say": "それが、ちゅういざんよ。"},
+     "en": {"text": "It's called attention residue.", "hl": "attention residue"}},
+    {"scene": "split", "args": {"left": "さっきの作業", "right": "今の作業", "left_en": "LAST TASK", "right_en": "NOW", "left_pose": "think", "right_pose": "sit"},
+     "ja": {"text": "作業を切りかえても、\n注意の一部は前の作業に残ったまま。", "hl": "残ったまま"},
+     "en": {"text": "When you switch tasks, part of\nyour mind stays on the last one.", "hl": "stays"}},
+    {"scene": "battery", "args": {"from": 0.9, "to": 0.35, "label": "FOCUS"},
+     "ja": {"text": "だから、切りかえるたびに\n集中力がすり減っていく。", "hl": "すり減っていく"},
+     "en": {"text": "So every switch\nchips away at your focus.", "hl": "chips away"}},
+    {"scene": "clock", "args": {"spin": 2, "label": "ONE TASK"},
+     "ja": {"text": "やり方はシンプル。\nひとつの作業だけの時間を決める。", "hl": "ひとつの作業だけ"},
+     "en": {"text": "The fix is simple. Block time\nfor just one task.", "hl": "just one task"}},
+    {"scene": "checklist", "args": {"items": ["通知を切る", "連絡はまとめて返す", "スマホは別の部屋"], "items_en": ["Notifications off", "Batch your messages", "Phone in another room"]},
+     "ja": {"text": "メールや連絡は、\nあとでまとめて返す。", "hl": "まとめて"},
+     "en": {"text": "Save emails and messages\nfor one batch later.", "hl": "one batch"}},
+    {"scene": "phone", "args": {},
+     "ja": {"text": "でも、スマホを1回のぞくだけで、\nまた注意が持っていかれる。", "hl": "持っていかれる", "say": "でも、スマホをいっかいのぞくだけで、また注意が持っていかれる。"},
+     "en": {"text": "But one quick glance at your phone\npulls your attention away again.", "hl": "pulls your attention"}},
+    {"scene": "target", "args": {},
+     "ja": {"text": "ひとつのことだけ。\nそれが深い集中への近道。", "hl": "ひとつのことだけ"},
+     "en": {"text": "One thing at a time.\nThat's the shortcut to deep focus.", "hl": "One thing at a time"}}
+  ]
+}
