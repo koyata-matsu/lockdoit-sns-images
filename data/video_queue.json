@@ -207,12 +207,12 @@
    "ending": "C",
    "ja": {
     "file": "videos/auto/out/a012_ja.mp4",
-    "status": "review",
+    "status": "ok",
     "slot": null
    },
    "en": {
     "file": "videos/auto/out/a012_en.mp4",
-    "status": "review",
+    "status": "ok",
     "slot": null
    },
    "created": "2026-11-28"
@@ -225,12 +225,12 @@
    "ending": "A",
    "ja": {
     "file": "videos/auto/out/a013_ja.mp4",
-    "status": "review",
+    "status": "ok",
     "slot": null
    },
    "en": {
     "file": "videos/auto/out/a013_en.mp4",
-    "status": "review",
+    "status": "ok",
     "slot": null
    },
    "created": "2026-11-28"
