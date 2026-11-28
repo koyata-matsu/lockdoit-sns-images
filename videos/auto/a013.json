@@ -1,0 +1,161 @@
+{
+ "id": "a013",
+ "theme": "ToDo・やることの整理",
+ "ending": "A",
+ "hud": {
+  "ja": "URGENT VS IMPORTANT",
+  "en": "URGENT VS IMPORTANT"
+ },
+ "caption": {
+  "ja": "いそがしいのに大事なことが進まない日は「4つの箱」🗂 Stephen Covey『The 7 Habits』でも有名なやり方。保存して明日の朝やってみて📌 App Storeで「Lock Do it」🔍 #タスク管理 #時間術 #ToDoリスト #LockDoit",
+  "en": "Busy all day but nothing important got done? Sort your tasks into four boxes 🗂 The urgent vs. important matrix, made famous by Stephen Covey's The 7 Habits. Save this for tomorrow morning 📌 Search \"Lock Do it\" on the App Store 🔍 #timemanagement #productivity #todolist #lockdoit"
+ },
+ "lines": [
+  {
+   "scene": "clock",
+   "args": {
+    "spin": 4,
+    "label": "BUSY ALL DAY"
+   },
+   "ja": {
+    "text": "1日中いそがしかったのに、\n大事なことは何も進んでいない。",
+    "hl": "何も進んでいない",
+    "say": "いちにちじゅういそがしかったのに、大事なことは何も進んでいない。"
+   },
+   "en": {
+    "text": "Busy all day,\nbut nothing important got done.",
+    "hl": "nothing important"
+   }
+  },
+  {
+   "scene": "person",
+   "args": {
+    "pose": "phone",
+    "to": "slump",
+    "cloud": "通知が止まらない",
+    "cloud_en": "Ping! Ping! Ping!"
+   },
+   "ja": {
+    "text": "それは、通知や頼まれごとなど\n「急ぎのこと」に追われているから。",
+    "hl": "急ぎのこと"
+   },
+   "en": {
+    "text": "You were chasing\n\"urgent\" things all day.",
+    "hl": "urgent"
+   }
+  },
+  {
+   "scene": "split",
+   "args": {
+    "left": "急ぎ",
+    "right": "大事",
+    "left_en": "URGENT",
+    "right_en": "IMPORTANT",
+    "left_pose": "slump",
+    "right_pose": "cheer"
+   },
+   "ja": {
+    "text": "でも、急ぎのことと大事なことは、\n別もの。",
+    "hl": "別もの"
+   },
+   "en": {
+    "text": "But urgent and important\nare not the same thing.",
+    "hl": "not the same"
+   }
+  },
+  {
+   "scene": "book",
+   "args": {
+    "title": "The 7 Habits",
+    "author": "Stephen Covey"
+   },
+   "ja": {
+    "text": "Stephen Coveyの本\n『The 7 Habits』で有名な方法。",
+    "hl": "The 7 Habits",
+    "say": "スティーブン・コヴィーの本、セブン・ハビッツで有名な方法。"
+   },
+   "en": {
+    "text": "Stephen Covey made this famous\nin The 7 Habits.",
+    "hl": "The 7 Habits"
+   }
+  },
+  {
+   "scene": "title",
+   "args": {
+    "big": "4つの箱",
+    "big_en": "4 BOXES",
+    "sub": "URGENT × IMPORTANT"
+   },
+   "ja": {
+    "text": "やることを「急ぎ」と「大事」で、\n4つの箱に分ける。",
+    "hl": "4つの箱",
+    "say": "やることを、急ぎと大事で、よっつの箱に分ける。"
+   },
+   "en": {
+    "text": "Sort every task into four boxes:\nurgent, important, both, neither.",
+    "hl": "four boxes"
+   }
+  },
+  {
+   "scene": "target",
+   "args": {},
+   "ja": {
+    "text": "大事だけど急がないこと。\nここに時間を使う人が、伸びていく。",
+    "hl": "大事だけど急がない"
+   },
+   "en": {
+    "text": "Important but not urgent:\nthat's where growth happens.",
+    "hl": "Important but not urgent"
+   }
+  },
+  {
+   "scene": "checklist",
+   "args": {
+    "items": [
+     "勉強・運動",
+     "睡眠",
+     "大切な人との時間"
+    ],
+    "items_en": [
+     "Study & exercise",
+     "Sleep",
+     "Time with loved ones"
+    ],
+    "tick": false
+   },
+   "ja": {
+    "text": "勉強、運動、睡眠、大切な人との時間。\n急かされないから、後回しになりやすい。",
+    "hl": "後回し"
+   },
+   "en": {
+    "text": "Study, exercise, sleep.\nNothing rushes them, so they wait.",
+    "hl": "so they wait"
+   }
+  },
+  {
+   "scene": "phone",
+   "args": {},
+   "ja": {
+    "text": "でもスマホの通知は、\nいつも急ぎのふりをしてくる。",
+    "hl": "急ぎのふり"
+   },
+   "en": {
+    "text": "But phone notifications\nalways pretend to be urgent.",
+    "hl": "pretend to be urgent"
+   }
+  },
+  {
+   "scene": "bulb",
+   "args": {},
+   "ja": {
+    "text": "朝いちばんに、大事なことを1つ。\nそれだけで1日の手ごたえが変わる。",
+    "hl": "大事なことを1つ",
+    "say": "朝いちばんに、大事なことをひとつ。それだけで、いちにちの手ごたえが変わる。"
+   },
+   "en": {
+    "text": "Do one important thing first.\nFeel the difference by tonight.",
+    "hl": "one important thing"
+   }
+  }
+ ]
+}

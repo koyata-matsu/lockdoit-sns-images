@@ -1,0 +1,39 @@
+{
+  "id": "a012",
+  "theme": "自己啓発",
+  "ending": "C",
+  "hud": {"ja": "SELF-COMPASSION", "en": "SELF-COMPASSION"},
+  "caption": {
+    "ja": "失敗した自分を責めるほど、次もやらなくなる🫂 心理学者Kristin Neffが広めた「セルフ・コンパッション」。落ちこんだ日に見返せるよう保存して📌 App Storeで「Lock Do it」🔍 #自己啓発 #メンタル #習慣化 #LockDoit",
+    "en": "Beating yourself up makes you quit 🫂 Try self-compassion, the idea psychologist Kristin Neff made popular. Save this for a rough day 📌 Search \"Lock Do it\" on the App Store 🔍 #selfcompassion #mindset #selfimprovement #lockdoit"
+  },
+  "lines": [
+    {"scene": "person", "args": {"pose": "slump", "cloud": "また失敗した…", "cloud_en": "Failed again..."},
+     "ja": {"text": "失敗した自分を責めるほど、\n次もやらなくなる。", "hl": "次もやらなくなる"},
+     "en": {"text": "The harder you beat yourself up,\nthe less you try again.", "hl": "the less you try again"}},
+    {"scene": "battery", "args": {"from": 0.8, "to": 0.1, "label": "SELF-BLAME"},
+     "ja": {"text": "責める声が大きいと、\n失敗がこわくなって手が止まる。", "hl": "手が止まる"},
+     "en": {"text": "Harsh self-talk makes you\nafraid to fail, so you freeze.", "hl": "freeze"}},
+    {"scene": "bulb", "args": {},
+     "ja": {"text": "心理学者Kristin Neffが広めた\n「セルフ・コンパッション」。", "hl": "セルフ・コンパッション", "say": "心理学者、クリスティン・ネフが広めた、セルフ・コンパッション。"},
+     "en": {"text": "Psychologist Kristin Neff calls\nthe fix self-compassion.", "hl": "self-compassion"}},
+    {"scene": "title", "args": {"big": "やさしく", "big_en": "BE KIND", "sub": "SELF-COMPASSION"},
+     "ja": {"text": "親友にかけるような言葉を、\n自分にもかけること。", "hl": "親友"},
+     "en": {"text": "Talk to yourself the way\nyou'd talk to a good friend.", "hl": "a good friend"}},
+    {"scene": "person", "args": {"pose": "sit", "to": "think", "cloud": "誰でもつまずく", "cloud_en": "Everyone struggles"},
+     "ja": {"text": "ある実験で、テストに落ちた学生に\n「つまずくのはふつう」と伝えると、", "hl": "つまずくのはふつう"},
+     "en": {"text": "Students who failed a test\nheard: \"Everyone struggles.\"", "hl": "Everyone struggles"}},
+    {"scene": "bars", "args": {"values": [5, 8], "labels": ["ふつう", "やさしく"], "labels_en": ["Others", "Kind"], "hl": 1},
+     "ja": {"text": "その学生たちは、次のテストに向けて\nより長く勉強した。", "hl": "長く勉強した"},
+     "en": {"text": "Then they studied longer\nfor the retest.", "hl": "studied longer"}},
+    {"scene": "checklist", "args": {"items": ["事実だけ見る", "誰でもあると思う", "次の一歩を決める"], "items_en": ["Just note the facts", "Everyone slips", "Pick one next step"]},
+     "ja": {"text": "失敗したら、「誰でもある」と言う。\nそして次の一歩を1つだけ決める。", "hl": "次の一歩", "say": "失敗したら、誰でもある、と言う。そして次の一歩をひとつだけ決める。"},
+     "en": {"text": "Slip up? Say \"everyone slips.\"\nThen pick one small next step.", "hl": "one small next step"}},
+    {"scene": "phone", "args": {},
+     "ja": {"text": "でも落ちこんだ時ほど、\nスマホに逃げてしまう。", "hl": "スマホに逃げて"},
+     "en": {"text": "But when you feel down,\nyou escape into your phone.", "hl": "escape into your phone"}},
+    {"scene": "door", "args": {},
+     "ja": {"text": "責めるより、はげます。\nそれが、もう一度立ち上がる力になる。", "hl": "はげます"},
+     "en": {"text": "Encourage, don't attack.\nThat's how you get back up.", "hl": "get back up"}}
+  ]
+}

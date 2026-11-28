@@ -198,6 +198,42 @@
     "slot": null
    },
    "created": "2026-11-27"
+  },
+  {
+   "id": "a012",
+   "theme": "自己啓発",
+   "title_ja": "失敗した自分を責めない（セルフ・コンパッション）",
+   "title_en": "Self-compassion: stop beating yourself up",
+   "ending": "C",
+   "ja": {
+    "file": "videos/auto/out/a012_ja.mp4",
+    "status": "review",
+    "slot": null
+   },
+   "en": {
+    "file": "videos/auto/out/a012_en.mp4",
+    "status": "review",
+    "slot": null
+   },
+   "created": "2026-11-28"
+  },
+  {
+   "id": "a013",
+   "theme": "ToDo・やることの整理",
+   "title_ja": "「急ぎ」と「大事」で4つの箱に分ける",
+   "title_en": "Urgent vs. important: the four boxes",
+   "ending": "A",
+   "ja": {
+    "file": "videos/auto/out/a013_ja.mp4",
+    "status": "review",
+    "slot": null
+   },
+   "en": {
+    "file": "videos/auto/out/a013_en.mp4",
+    "status": "review",
+    "slot": null
+   },
+   "created": "2026-11-28"
   }
  ]
 }
